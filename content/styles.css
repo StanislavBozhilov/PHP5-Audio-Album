@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+}
+html, body {
+    background: wheat;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: consolas;
+    color: #CF8112;
+}
+
+a {
+    color: inherit;
+}
+
+#wrapper>header {
+    background: #333333;
+    padding: 5px;
+}
+
+#wrapper>header>a>img, #wrapper>header ul, #wrapper>header ul>li  {
+    display: inline-block;
+    vertical-align: middle;
+}
+#logo {
+    width:100px;
+    height: 100px;
+}
+#wrapper>header ul>li {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#wrapper>header ul>li>a {
+    text-decoration: none;
+}
+
+#wrapper>footer {
+    background: #333333;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+}
+#msgUl{
+    width: 300px;
+    margin: 0 auto;
+
+}
+#rightMusicLogo {
+    float: right;
+    padding-top:5px;
+    padding-right: 10px;
+    width:500px;
+    height:90px;
+    border-radius:10px;
+}
+#bodyLogo{
+    position: fixed;
+    width: 400px;
+    height: 170px;
+    float: right;
+}
+
+li.info {
+    background: forestgreen;
+    color:black;
+    padding: 15px;
+    margin:5px;
+    font-style: italic;
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    }
+
+li.error {
+    background: darkred;
+    color:black;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 15px;
+    margin:5px;
+    list-style: none;
+    text-align: center;
+    }
+#logged-in-info {
+    font-size: 16pt;
+    padding-top: 30px;
+    font-style: italic;
+    float:right;
+}
+#logged-in-info form{
+    display: inline-block;
+}
+
+.songs-header{
+    text-align:center;
+}
+#songsUl
+{
+    display:inline-block;
+    overflow:hidden;
+    column-count: 3;
+    padding-bottom:40px;
+    border-top:1px solid #ccc;
+
+}
+#songsUl a{
+    text-decoration: none;
+
+}
+#songsUl a:hover{
+    color:black;
+}
+#songsUl li {
+    padding: 10px;
+    background-color: #333333;
+    display: inline-block;
+    line-height:1.5em;
+    border-bottom:1px solid #ccc;
+    border-radius: 5px;
+}
+#control-panel{
+    margin: 5px;
+    padding-top: 20px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+#control-panel ul li{
+    list-style-type: none;
+    margin:20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -15px;
+
+}
+#control-panel a{
+    color:darkorange;
+    text-decoration: none;
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+#control-panel a:hover{
+    color:black;
+}
+#loginRegister {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+}
+#loginRegister a{
+    text-decoration: none;
+
+}
+#loginRegister a:hover{
+    color:black;
+}
+#homeWelcome{
+    font-size:33pt;
+    font-style: italic;
+    text-align: center;
+    padding-top: 35px;
+}
+#loginForm,#registerForm{
+    text-align: center;
+
+}
+#registerForm input{
+    margin:5px;
+}
+#loginForm input{
+    margin:5px;
+}
+#loginText,#registerText{
+    text-align: center;
+    padding: 10px;
+}
+#genresTable{
+    text-align: center;
+
+}
+#genresTable table {
+    margin: 0 auto;
+    font-size: 20px;
+}
+#genresTable th {
+    font-size: 25pt;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+
+}
+#genresTable tr {
+    font-size: 15pt;
+    font-weight: bold;
+    color:darkorange;
+}
+#playlistsTable{
+    text-align: center;
+
+}
+#playlistsTable table {
+    margin: 0 auto;
+    font-size: 20px;
+}
+#playlistsTable th {
+    font-size: 25pt;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+
+}
+#playlistsTable a{
+    text-decoration: none;
+}
+#playlistsTable a:hover{
+    color:black;
+}
+#playlistsTable tr {
+    font-size: 15pt;
+    font-weight: bold;
+    color:darkorange;
+}
+#songs th{
+    border-bottom: 1px solid blue;
+}
+#songs li{
+
+    list-style-type: none;
+}
+.songs-header{
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25pt;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+
+}
+#songs{
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+    color:darkorange;
+}
+#songs li{
+    margin: 6px;
+}
+#songs ul div{
+    display: inline-block;
+}
+#uploadForm{
+    text-align: center;
+    display: block;
+}
+#wrapper>header a:hover{
+    color:black;
+}
+#loginForm a{
+    text-decoration: none;
+}
+#loginForm a:hover{
+    text-decoration: none;
+}
+#loginForm span{
+    color:black;
+}
+
+
